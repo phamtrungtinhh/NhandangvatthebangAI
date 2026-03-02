@@ -1,5 +1,8 @@
-﻿streamlit
+streamlit
 ultralytics
 opencv-python
 pillow
 numpy
+torch
+torchvision
+wandb

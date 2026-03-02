@@ -1,0 +1,14 @@
+{
+  "name": "streamlit-app-launcher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "run_and_open.bat",
+    "start:bat": "run_and_open.bat",
+    "start:venv": "run_prod_launcher.bat D:\\workspace",
+    "start:no-browser": "run_prod_launcher.bat D:\\workspace"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
