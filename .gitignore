@@ -1,0 +1,32 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and runtime artifacts
+*.db
+*.sqlite3
+
+# Model weights and training outputs
+models/
+runs/
+
+# Large datasets / media
+*.pt
+*.onnx
+*.engine
+*.mp4
+*.avi
+*.mov
+*.zip
+
+dataset/
+datasets/
+dataset_*/
+merged_dataset*/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
