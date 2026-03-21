@@ -1,3 +1,4 @@
+Link sever app : Nhận diện vật thể bằng AI : https://huggingface.co/spaces/phamtrungtinh/smartfocus-ui
 # NhandangvatthebangAI
 
 Ung dung Streamlit nhan dang va dem `hoa`, `trai cay`, `cay` va `ta` tu anh/video bang YOLO.
