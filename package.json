@@ -5,8 +5,8 @@
   "scripts": {
     "start": "run_and_open.bat",
     "start:bat": "run_and_open.bat",
-    "start:venv": "run_prod_launcher.bat D:\\workspace",
-    "start:no-browser": "run_prod_launcher.bat D:\\workspace"
+    "start:venv": ".\\.venv\\Scripts\\python.exe run_and_open.py --no-restart",
+    "start:no-browser": ".\\.venv\\Scripts\\python.exe run_and_open.py --no-browser --no-restart"
   },
   "engines": {
     "node": ">=14"

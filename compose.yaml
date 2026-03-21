@@ -1,0 +1,9 @@
+services:
+  smartfocus-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartfocus-ai
+    ports:
+      - "8501:7860"
+    restart: unless-stopped

@@ -1,0 +1,31 @@
+﻿{
+    "deployed_at":  "2026-03-19T01:08:38.7983711+07:00",
+    "run":  "S:\\workspace\\model_custom\\_train_runs\\full_retrain_20260318_150052",
+    "best":  "S:\\workspace\\model_custom\\_train_runs\\full_retrain_20260318_150052\\weights\\best.pt",
+    "deploy_target":  "S:/workspace/model_custom/weights/custo_all.pt",
+    "deploy_sha256":  "7BA06CCA375BBF2213B84D489A58FEA314DA2E934FFD9C1771BA18AF23129EDC",
+    "base_model":  "S:/workspace/model_custom/weights/custo_all.pt",
+    "data":  "S:/workspace/model_custom/dataset/data.yaml",
+    "class_names":  {
+                        "0":  "dumbbell",
+                        "1":  "flower",
+                        "2":  "fruit",
+                        "3":  "tree"
+                    },
+    "train_args":  {
+                       "imgsz":  512,
+                       "batch":  4,
+                       "epochs":  40,
+                       "device":  "0"
+                   },
+    "dataset_counts":  {
+                           "val":  {
+                                       "images":  878,
+                                       "labels":  1582
+                                   },
+                           "train":  {
+                                         "images":  6286,
+                                         "labels":  10703
+                                     }
+                       }
+}

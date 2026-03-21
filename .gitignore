@@ -1,32 +1,31 @@
-# Python cache and virtual environments
-__pycache__/
-*.py[cod]
 .venv/
-venv/
+.streamlit/credentials.toml
+.vscode/
+__pycache__/
+*.pyc
+.ui_control_state.json
+.space_rebuild
 
-# Local databases and runtime artifacts
-*.db
-*.sqlite3
+hf_deploy_space/
+hf_space_check/
+hf_space_repo/
 
-# Model weights and training outputs
-models/
+tmp_test_outputs/
+tmp_test_inputs/
 runs/
 
-# Large datasets / media
-*.pt
-*.onnx
-*.engine
-*.mp4
-*.avi
-*.mov
-*.zip
+_presentation_archive_20260311/
+_report_fixed_spacing.zip
+_report_src.zip
 
-dataset/
-datasets/
-dataset_*/
-merged_dataset*/
+model_custom/__pycache__/
+model_custom/dataset/
+model_custom/dataset_flower_focused/
+model_custom/dataset_flower_normalized/
+model_custom/_flower_runs/
+model_custom/_focused_runs/
+model_custom/_train_runs/
+model_custom/_tree_runs/
 
-# OS/editor
-.DS_Store
-Thumbs.db
-.vscode/
+# Keep the report folder untouched in git history and out of new packaging work.
+BAOCAODOAN2/

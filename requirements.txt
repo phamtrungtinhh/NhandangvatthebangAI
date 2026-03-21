@@ -1,8 +1,12 @@
 streamlit
 ultralytics
-opencv-python
+opencv-python-headless
 pillow
 numpy
 torch
 torchvision
 wandb
+requests
+pyyaml
+annotated-types
+huggingface_hub
